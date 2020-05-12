@@ -23,14 +23,24 @@ h1 {font-family: 'Marko One', serif;
     font-size: small;}
     .c1 {list-style-type: lower-roman;}
     .c2 {list-style-type: circle;}
+    .c3 {text-indent: 1%;
+    list-style-type: disc;}
     .c4 {
         list-style-image: url(/images/bull.PNG);
         list-style-position: outside;
+        font-weight: bolder;
+        font-size: x-large;
         }
 
     body{ background-color: #D2DC9D}
     #div1 {background-color: white;
-        opacity : 0.5;}
+        opacity : 0.5;
+    background-image: url(/images/gooseshadow.png), url(/images/purpledot.png), url(/images/purpledot.png);
+    background-repeat: no-repeat, repeat-y, repeat-y;
+    background-position: 80% 100%, left, right ;
+   
+     
+}
 
     #appetizers {color: #993399;}
 
@@ -38,19 +48,16 @@ h1 {font-family: 'Marko One', serif;
         background-image: url(/images/bullseye.png);
         background-repeat: round;
         }
-        #div1  {background-image: url(/images/purpledot.png);
-        background-repeat: repeat-x;
-        }
+    
 
-        #div1  {background-image: url(/images/purpledot.png);
-            background-repeat: repeat-y;
-            background-repeat: repeat-y;
 
-            }
-            body {
+
+    body {
                 background-image: url(/images/blackgoose.png);
                 
                 background-origin: content-box;
+                background-repeat: no-repeat;
+                background-position: center;
                 }  
         
 

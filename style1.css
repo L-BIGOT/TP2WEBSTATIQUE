@@ -24,8 +24,12 @@ strong {color: #FF6347;}
 font-size: small;}
 .c1 {list-style-type: lower-roman;}
 .c2 {list-style-type: circle;}
+.c3 {text-indent: 1%;
+list-style-type: disc;}
 .c4 {
     list-style-image: url(/images/bull.PNG);
     list-style-position: outside;
+    font-weight: bolder;
+    font-size: x-large;
     }
     
