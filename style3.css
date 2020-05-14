@@ -23,8 +23,8 @@ h1 {font-family: 'Marko One', serif;
     font-size: small;}
     .c1 {list-style-type: lower-roman;}
     .c2 {list-style-type: circle;}
-    .c3 {text-indent: 1%;
-    list-style-type: disc;}
+    .c3 {list-style-type: disc;
+        list-style-position: inside;}
     .c4 {
         list-style-image: url(/images/bull.PNG);
         list-style-position: outside;
